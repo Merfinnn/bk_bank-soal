@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#17365d">
+    <meta name="description" content="Repositori latihan soal digital Program Studi Informatika, Fakultas Teknik, Universitas Siliwangi.">
+    <title>Bank Soal Informatika — Universitas Siliwangi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Lewati ke konten</a>
+    <header class="site-header">
+      <a class="brand" href="#main" aria-label="Bank Soal Informatika, beranda">
+        <span class="brand-mark" aria-hidden="true">IF</span>
+        <span class="brand-copy">
+          <strong>Bank Soal Informatika</strong>
+          <span>Program Studi Informatika · Universitas Siliwangi</span>
+        </span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <a href="#bank-soal" aria-current="page">Bank soal</a>
+        <a href="#tentang">Tentang</a>
+        <a class="nav-cta main-archive-link" href="https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing" target="_blank" rel="noopener noreferrer">Repositori Drive <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Buka navigasi</span>
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="bank-soal">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> PROGRAM STUDI INFORMATIKA · FAKULTAS TEKNIK</p>
+          <h1>Bank Soal<br><span>Informatika</span></h1>
+          <p class="hero-description">Repositori latihan soal digital untuk mendukung persiapan akademik mahasiswa Informatika Universitas Siliwangi secara mandiri, terstruktur, dan setara.</p>
+          <a class="hero-link main-archive-link" href="https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing" target="_blank" rel="noopener noreferrer">Buka repositori soal <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-bottom">
+          <span>PROGRAM STUDI INFORMATIKA</span><span class="hero-bottom-line"></span><span>UNIVERSITAS SILIWANGI</span>
+        </div>
+      </section>
+
+      <section class="archive section-wrap" id="arsip">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark">REPOSITORI AKADEMIK</p>
+            <h2>Daftar mata kuliah</h2>
+            <p class="section-subtitle">Pilih semester untuk menelusuri arsip latihan soal.</p>
+          </div>
+          <label class="search-box">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="sr-only">Cari mata kuliah</span>
+            <input id="course-search" type="search" placeholder="Cari mata kuliah..." autocomplete="off">
+            <kbd>Ctrl K</kbd>
+          </label>
+        </div>
+
+        <div class="semester-tabs" role="tablist" aria-label="Pilih semester">
+          <button class="semester-tab is-active" id="tab-1" role="tab" aria-selected="true" aria-controls="course-panel" data-semester="1">Semester <span>01</span></button>
+          <button class="semester-tab" id="tab-2" role="tab" aria-selected="false" aria-controls="course-panel" data-semester="2" tabindex="-1">Semester <span>02</span></button>
+          <button class="semester-tab" id="tab-3" role="tab" aria-selected="false" aria-controls="course-panel" data-semester="3" tabindex="-1">Semester <span>03</span></button>
+          <button class="semester-tab" id="tab-4" role="tab" aria-selected="false" aria-controls="course-panel" data-semester="4" tabindex="-1">Semester <span>04</span></button>
+          <button class="semester-tab" id="tab-5" role="tab" aria-selected="false" aria-controls="course-panel" data-semester="5" tabindex="-1">Semester <span>05</span></button>
+          <button class="semester-tab" id="tab-6" role="tab" aria-selected="false" aria-controls="course-panel" data-semester="6" tabindex="-1">Semester <span>06</span></button>
+        </div>
+
+        <div class="list-heading" aria-hidden="true">
+          <span>MATA KULIAH</span><span>REPOSITORI</span>
+        </div>
+        <div id="course-panel" class="course-list" role="tabpanel" aria-labelledby="tab-1"></div>
+        <p class="empty-state" id="empty-state" hidden>Tidak ada mata kuliah yang cocok. Coba kata kunci lain.</p>
+        <div class="archive-footnote"><span class="footnote-icon">i</span> Tautan mata kuliah mengarah ke repositori Google Drive Bank Soal Informatika.</div>
+      </section>
+
+      <section class="help-section" id="tentang">
+        <div class="help-inner">
+          <div>
+            <p class="eyebrow eyebrow-dark">TENTANG PLATFORM</p>
+            <h2>Bank Soal Informatika</h2>
+            <p class="about-lead">Repositori dan manajemen latihan soal digital yang dirancang untuk mahasiswa Program Studi Informatika, Fakultas Teknik, Universitas Siliwangi.</p>
+            <p>Platform ini dikembangkan sebagai luaran proyek mata kuliah Berpikir Komputasional untuk menjawab ketimpangan akses informasi dan ketidakseragaman referensi latihan UTS maupun UAS. Sentralisasi dan kategorisasi materi diharapkan mendukung kesempatan belajar yang setara serta persiapan ujian yang mandiri, terstruktur, dan efektif.</p>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="about-section-heading">
+            <p class="eyebrow eyebrow-dark">METODOLOGI</p>
+            <h3>Penerapan Berpikir Komputasional</h3>
+            <p>Empat pilar digunakan untuk merumuskan permasalahan akademik dan merancang solusi secara sistematis.</p>
+          </div>
+          <div class="principle-grid">
+            <article class="principle-card">
+              <span class="principle-number">01</span>
+              <h4>Dekomposisi</h4>
+              <p>Menguraikan kendala persiapan ujian menjadi analisis hambatan pencarian referensi, pengelompokan mata kuliah berdasarkan kurikulum, serta standardisasi format kunci jawaban dan pembahasan.</p>
+            </article>
+            <article class="principle-card">
+              <span class="principle-number">02</span>
+              <h4>Pengenalan Pola</h4>
+              <p>Mengidentifikasi pola kurikulum, tipe soal seperti esai, pilihan ganda, analisis kode atau hitungan, serta peningkatan kebutuhan referensi pada periode ujian.</p>
+            </article>
+            <article class="principle-card">
+              <span class="principle-number">03</span>
+              <h4>Abstraksi</h4>
+              <p>Menyaring dokumen dan mengurangi ketergantungan pada jaringan informal agar mahasiswa dapat menemukan soal relevan berdasarkan mata kuliah dan topik.</p>
+            </article>
+            <article class="principle-card">
+              <span class="principle-number">04</span>
+              <h4>Perancangan Algoritma</h4>
+              <p>Merancang alur pencarian terfilter, prosedur verifikasi materi, dan navigasi antarmuka yang mendukung akses arsip secara terarah.</p>
+            </article>
+          </div>
+          <div class="team-section">
+            <div class="about-section-heading">
+              <p class="eyebrow eyebrow-dark">PENGEMBANGAN</p>
+              <h3>Tim Pengembang · Kelompok 9</h3>
+              <p>Program Studi Informatika, Fakultas Teknik, Universitas Siliwangi.</p>
+            </div>
+            <div class="team-table-wrap">
+              <table class="team-table">
+                <thead><tr><th scope="col">Nama</th><th scope="col">Peran dan tanggung jawab</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Fachri Putra Ramadhan</th><td>Lead UI/UX Designer &amp; Front-End Developer; arsitektur web, prototipe antarmuka, repositori GitHub, dan pemetaan mata kuliah.</td></tr>
+                  <tr><th scope="row">Nazmul</th><td>System &amp; Bank Soal Architect; arsitektur repositori dan alur kategorisasi materi.</td></tr>
+                  <tr><th scope="row">Nadya Shafira</th><td>Problem &amp; Context Analyst; analisis ketimpangan referensi dan perumusan urgensi solusi.</td></tr>
+                  <tr><th scope="row">Yara Rahma Nathania</th><td>Decomposition Analyst; pemetaan dan penguraian struktur permasalahan.</td></tr>
+                  <tr><th scope="row">Ahmad Agam Muzzaki</th><td>Pattern Recognition Analyst; analisis pola evaluasi, tipe soal, dan hierarki kurikulum.</td></tr>
+                  <tr><th scope="row">Hisyam Al Ghifari</th><td>Output Specification Analyst; analisis spesifikasi luaran dan fungsionalitas sistem.</td></tr>
+                  <tr><th scope="row">Kevin</th><td>Anggota tim pengembang Kelompok 9.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="academic-panel">
+            <div class="about-section-heading">
+              <p class="eyebrow eyebrow-dark">INFORMASI AKADEMIS</p>
+              <h3>Identitas proyek</h3>
+            </div>
+            <dl class="academic-details">
+              <div><dt>Mata Kuliah</dt><dd>Berpikir Komputasional</dd></div>
+              <div><dt>Program Studi</dt><dd>Informatika</dd></div>
+              <div><dt>Fakultas</dt><dd>Teknik</dd></div>
+              <div><dt>Institusi</dt><dd>Universitas Siliwangi</dd></div>
+              <div><dt>Dosen Pengampu</dt><dd>Euis Nur Fitriani Dewi, S.T., M.Kom.</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#main" aria-label="Bank Soal Informatika, kembali ke atas">
+        <span class="brand-mark" aria-hidden="true">IF</span>
+        <span class="brand-copy"><strong>Bank Soal Informatika</strong><span>Universitas Siliwangi</span></span>
+      </a>
+      <span class="footer-copy">Program Studi Informatika · Fakultas Teknik</span>
+      <a class="back-top" href="#main">Kembali ke atas ↑</a>
+    </footer>
+
+  </body>
+</html>
