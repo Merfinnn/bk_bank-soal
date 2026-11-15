@@ -1,6 +1,6 @@
 const mainArchiveUrl = "https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing";
 const archiveUrlsByCourse = {
-  "Bahasa Indonesia": "https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing",
+  "Bahasa Indonesia": "https://drive.google.com/drive/folders/1KhD-cNFi_ZmJWq8Ga7JNcAjN4H8GvKwN?usp=sharing",
   "Bahasa Inggris": "https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing",
   "Pancasila": "https://drive.google.com/drive/folders/1W_56WCyVGgocGAk9pHZ2ym6LRnWy6J3P?usp=drive_link",
   "Berpikir Komputasional": "https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing",
