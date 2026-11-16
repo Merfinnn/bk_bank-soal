@@ -51,7 +51,7 @@ const archiveUrlsByCourse = {
   "Digital Forensics": "https://drive.google.com/drive/folders/1UVMoq_nJYidKGEXqw76K1I1YtYIoGlfL?usp=sharing",
   "Ethical Hacking": "https://drive.google.com/drive/folders/19oPgnTY3GQBSdnP0pNkl1eb8msPiAEyA?usp=sharing",
   "Software Defined Network (SDN)": "https://drive.google.com/drive/folders/1uhxmubvZQyi2VY8gQm4qwPqrSCvHHWH3?usp=sharing",
-  "Sistem Multimedia": "https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing",
+  "Sistem Multimedia": "https://drive.google.com/drive/folders/1FgJ3x1zOGk5I-T_7_AeQhmGCNiBMyS7F?usp=sharing",
   "Animasi Komputer": "https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing",
   "Basis Data Multimedia": "https://drive.google.com/drive/folders/1OzJDQa1wDu1bK8OlaoqdmnY17GO0Qzqu?usp=sharing"
 };
